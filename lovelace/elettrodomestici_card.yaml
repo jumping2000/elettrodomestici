@@ -34,7 +34,7 @@
         entity: sensor.washing_machine_status
         image: /local/images/devices/lavatrice_oblo.png
         state_filter:
-          Pronto: opacity(0.0)
+          Avviare: opacity(0.0)
           Lavaggio: opacity(0.0)
           Risciacquo: opacity(0.0)
           Centrifuga: opacity(0.0)
@@ -50,7 +50,7 @@
         entity: sensor.washing_machine_status
         image: /local/images/devices/lavatrice_panni.png
         state_filter:
-          Pronto: opacity(0.0)
+          Avviare: opacity(0.0)
           Lavaggio: null
           Risciacquo: null
           Centrifuga: null
