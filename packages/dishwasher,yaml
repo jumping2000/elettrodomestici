@@ -223,7 +223,7 @@ automation:
 
 ################################################################# 
 # back to start state
-  - alias: lavastoviglie Dirty dopo timer
+  - alias: lavastoviglie Dirty
     initial_state: true
     trigger:
     - platform: state
