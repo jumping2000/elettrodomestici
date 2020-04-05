@@ -1,2 +1,2 @@
 # elettrodomestici
-Packages, cards, images for Home Assistant
+Code, cards, images for washing machine, dishwasher, oven packages - Home Assistant
