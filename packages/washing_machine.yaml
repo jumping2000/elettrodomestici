@@ -282,11 +282,20 @@ automation:
     - platform: state
       entity_id: input_select.washing_machine_status
       to: 'Svuotare'
-        for: 5 minutes
+      for:
+        minutes: 5
+    - platform: numeric_state
+      entity_id: sensor.lavatrice_power
+      below: 1
     condition:
-    - condition: state
-      entity_id: input_select.washing_machine_status
-      state: 'Svuotare'
+      condition: or
+      conditions:
+      - condition: state
+        entity_id: input_select.washing_machine_status
+        state: Completamento
+      - condition: state
+        entity_id: input_select.washing_machine_status
+        state: Svuotare
     action:
     - service: input_select.select_option
       data:
