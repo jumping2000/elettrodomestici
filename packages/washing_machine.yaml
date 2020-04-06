@@ -129,7 +129,7 @@ group:
       - switch.plug_lavatrice
       - sensor.lavatrice_power
       - sensor.washing_machine_cost
-      - washing_machine_time_left
+      - sensor.washing_machine_time_left
 
 #################################################################
 #                                                               #
