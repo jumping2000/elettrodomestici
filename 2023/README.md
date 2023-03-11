@@ -174,8 +174,8 @@ Come detto la card è adattabile al dispositivo usato e al suo orientamento, non
       <th>Energy Card</th>
 	</tr>
     <tr>
-        <td><div align=center><img width = 400 src="img/lavatrice_1.png"/></div></td>
-        <td><div align=center><img width = 400 src="img/lavatrice_2.png"/></div></td>
+        <td><div align=center><img width = 500 src="img/lavatrice_1.png"/></div></td>
+        <td><div align=center><img width = 500 src="img/lavatrice_2.png"/></div></td>
     </tr>
 </table>
 
